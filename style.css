@@ -1,0 +1,156 @@
+* {
+    box-sizing: border-box;
+  }
+
+* {
+    margin:0; padding:0
+}
+
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.container {
+    background-image: url('./assets/background-image.jpg');
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.cards-of-ancients {
+    height: 30%;
+}
+
+.card-ancient{
+    height: 300px;
+}
+
+.card-ancient:hover {
+    cursor: pointer;
+    border: solid 2px red;
+}
+
+.levels {
+    height: 20%;
+}
+
+.level-button {
+    border: solid 3px rgb(147, 147, 216);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 10px;
+    width: 150px;
+    background-color: transparent;
+    transition: all linear 0.5s;
+}
+
+.level-button  {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    color: rgb(147, 147, 216);
+    margin-top: 40%;
+}
+
+.level-button:hover {
+    cursor: pointer;
+    border-color: red;
+    color: red;
+}
+
+.play-field {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 100px;
+  
+}
+
+.condition {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+   
+}
+
+.stage-title {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 21px;
+    color: rgb(90, 196, 207);
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.circles {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 30px;
+    margin-bottom: 20px;
+}
+
+.circle {
+    height: 40px;
+    width: 40px;
+    border-radius: 40px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 21px;
+    text-align: center;
+    padding-top: 10px;
+
+}
+
+.green {
+    background-color: green;
+}
+
+.brown {
+    background-color: brown;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.cards {
+    height: 100%;
+    padding-top: 10px;
+
+}
+
+
+.faceCard:hover {
+    cursor: pointer;
+    border: solid 2px red;
+}
+
+.faceCard {
+    height: 250px;
+}
+
+.off {
+    visibility: hidden;
+
+}
+
+.on {
+    color: red;
+}

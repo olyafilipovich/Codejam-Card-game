@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="assets/favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Aleo:ital,wght@0,400;0,700;1,400;1,700&family=Merriweather:ital@1&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Roboto:wght@500&display=swap" rel="stylesheet">
+    <title>CodeJam</title>
+</head>
+<body>
+<div class="container">
+    <div class="cards-of-ancients">
+        <img class="card-ancient" src="./assets/Ancients/Cthulthu.png" alt="card"/>
+    </div>
+    <div class="levels">
+        <button name="level" class="level-button off" type="submit">Normal Level</button>
+    </div>
+    <div class="play-field">
+        <div class="condition off">
+            <div class="stage">
+                <h2 class="stage-title" id="I">I stage</h2>
+                <div class="circles">
+                    <div class="circle green" id="g1">0</div>
+                    <div class="circle brown" id="b1">2</div>
+                    <div class="circle blue" id="bl1">2</div>
+                </div>
+                
+            </div>
+            <div class="stage">
+                <h2 class="stage-title" id="II">II stage</h2>
+                <div class="circles">
+                    <div class="circle green" id="g2">1</div>
+                    <div class="circle brown" id="b2">3</div>
+                    <div class="circle blue" id="bl2">0</div>
+                </div>
+            </div>
+            <div class="stage">
+                <h2 class="stage-title" id="III">III stage</h2>
+                <div class="circles">
+                    <div class="circle green" id="g3">3</div>
+                    <div class="circle brown" id="b3">4</div>
+                    <div class="circle blue" id="bl3">0</div>
+                </div>
+            </div>
+        </div>
+        <div class="cards off">
+            <img src="./assets/mythicCardBackground.png" alt="cards" class = "faceCard" id="img">
+        </div>
+     
+    </div>
+</div>
+</body>
+<script type="module" src="script.js"></script>
+</html>
